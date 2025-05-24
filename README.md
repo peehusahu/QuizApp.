@@ -13,11 +13,32 @@ This is a simple console-based Quiz Application written in C++.
 3. Enter your name and start the quiz
 4. Choose your answer from options (A, B, C, or D)
 5. At the end, you will see your score and feedback
+   
+## 📝 How to Use This Quiz App
 
-## Future Improvements
-- Reading questions from a file (file handling)
-- Creating a GUI version
-- Using arrays or vectors to store questions for easier management
+### Step 1: Download the Project
+
+- Go to the repository: [https://github.com/peehusahu/QuizApp]
+- Click the green Code button, then select Download ZIP  
+- Extract the ZIP file to your computer
+
+
+### Step 2: Compile the Code
+
+Make sure you have a C++ compiler installed (like g++).  
+Open terminal/command prompt and navigate to the project folder.
+
+To compile:
+
+```bash
+g++ Mainn.cpp -o quiz
+```
+
+## To run:
+./quiz       # For Linux/Mac
+quiz.exe     # For Windows
+
+
 
 ## Author
 Peehu Sahu  
