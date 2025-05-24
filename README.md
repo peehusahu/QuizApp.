@@ -36,6 +36,7 @@ g++ Mainn.cpp -o quiz
 
 ## To run:
 ./quiz       # For Linux/Mac
+
 quiz.exe     # For Windows
 
 
