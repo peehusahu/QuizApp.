@@ -1,5 +1,3 @@
-# QuizApp.
-A simple console-based Quiz App made using C++.
 # QuizApp
 
 This is a simple console-based Quiz Application written in C++.
@@ -23,4 +21,4 @@ This is a simple console-based Quiz Application written in C++.
 
 ## Author
 Peehu Sahu  
-Email: peehusahu080@gmail.com
+
