@@ -1,73 +1,7 @@
 /* Thia is a simple console based quiz application that asks 10 MCQ questions to the 
 user and evaluates the score based on user inputs.
 Concepts used: functions, conditionals, user input 
-Made By:```cpp
-#include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
-
-struct Question {
-    string question;
-    string options[4];
-    char correctAnswer;
-};
-
-int score = 0;
-
-void askQuestion(const Question& question) {
-    char userAnswer;
-    cout << question.question << endl;
-    for (int i = 0; i < 4; ++i) {
-        cout << (char)('A' + i) << ". " << question.options[i] << endl;
-    }
-    cout << "Enter your answer: ";
-    cin >> userAnswer;
-    if (toupper(userAnswer) == toupper(question.correctAnswer)) {
-        cout << "Correct!" << endl;
-        score++;
-    } else {
-        cout << "Wrong!" << endl;
-    }
-    cout << "\n----------------------------------------------------------------------------------\n";
-}
-
-int main() {
-    string name;
-    cout << "Enter Your Name: " << endl;
-    cin >> name;
-    cout << "Welcome " << name << "!\nLets start the quiz!" << endl;
-
-    vector<Question> questions = {
-        {"1. How many elements are there in the periodic table?", {"120", "118", "115", "110"}, 'B'},
-        {"2. What is the square root of 144?", {"11", "12", "15", "13"}, 'B'},
-        {"3. Which is the largest Ocean on Earth?", {"Indian Ocean", "Atlantic Ocean", "Arctic Ocean", "Pacific Ocean"}, 'D'},
-        {"4. Which of the following is a noble gas?", {"Oxygen", "Nitrogen", "Helium", "Hydrogen"}, 'C'},
-        {"5. Which planet is known as Red Planet?", {"Mars", "Earth", "Mercury", "Venus"}, 'A'},
-        {"6. Which is the next prime number after 7?", {"12", "11", "09", "13"}, 'B'},
-        {"7. Which acid is found in ant bite?", {"Sulphuric Acid", "Acetic Acid", "Citric Acid", "Formic Acid"}, 'D'},
-        {"8. Which gas is known as laughing gas?", {"Nitrogen", "Oxygen", "Nitrous Oxide", "Carbon Monoxide"}, 'C'},
-        {"9. If x = 3, what is the value of x^2 + 2x?", {"10", "15", "19", "11"}, 'B'},
-        {"10. Which metal is liquid at room temperature?", {"Mercury(Hg)", "Gold(Au)", "Iron(Fe)", "Silver(Ag)"}, 'A'}
-    };
-
-    for (const auto& question : questions) {
-        askQuestion(question);
-    }
-
-    cout << "Your Score is: " << score << endl;
-    if (score >= 8) {
-        cout << "Excellent!" << endl;
-    } else if (score >= 6) {
-        cout << "Good Job!" << endl;
-    } else {
-        cout << "Keep learning!\nYou'll do better next time." << endl;
-    }
-    cout << "\n----------------------------------------------------------------------------------\n";
-
-    return 0;
-}
+Made By:```C++
 ``` Peehu*/
 #include <iostream>
 using namespace std;
