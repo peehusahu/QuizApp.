@@ -14,11 +14,11 @@ This is a simple console-based Quiz Application written in C++.
 4. Choose your answer from options (A, B, C, or D)
 5. At the end, you will see your score and feedback
    
-## 📝 How to Use This Quiz App
+##  How to Use This Quiz App
 
 ### Step 1: Download the Project
 
-- Go to the repository: [https://github.com/peehusahu/QuizApp]
+- Go to the repository: https://github.com/peehusahu/QuizApp..git
 - Click the green Code button, then select Download ZIP  
 - Extract the ZIP file to your computer
 
