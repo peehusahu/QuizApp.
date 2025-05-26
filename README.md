@@ -1,11 +1,18 @@
 # QuizApp
 
-This is a simple console-based Quiz Application written in C++.
+This is a simple console-based Quiz Application written in C++.This app allows the user to answer
+Multiple choice questions and get their scores at the end. 
 
 ## Features
 - 10 multiple choice questions
 - Calculates score based on user input
 - Provides feedback based on the score
+- Simple and interactive console interface
+
+## Tech Stack
+1. LANGUAGE: C++
+2. CONCEPTS USED: Variables, Functions, Loops, Conditional Statements
+
 
 ## Usage
 1. Compile the code using a C++ compiler (like g++, or build in VSCode)
