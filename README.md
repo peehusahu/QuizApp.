@@ -44,21 +44,23 @@ g++ Mainn.cpp -o quiz
 
 quiz.exe     # For Windows
 
+
+
 After completing the above mentioned steps, Enter your name and start the Quiz.
 
 ## What I Learned:
 
-1.How to use functions to organize code.
+1. How to use functions to organize code.
 
-2.Handling user input.
+2. Handling user input.
 
-3.Implementing control flow using loops and conditionals.
+3. Implementing control flow using loops and conditionals.
 
-4.Basics of console-based interaction for user-friendly experience.
+4. Basics of console-based interaction for user-friendly experience.
 
-5.Managing simple data structures (like lists of questions)
+5. Managing simple data structures (like lists of questions)
 
-6.Writing clean and readable code with comments.
+6. Writing clean and readable code with comments.
 
 ## Author
 Peehu Sahu  
