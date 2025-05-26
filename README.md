@@ -30,14 +30,12 @@ Multiple choice questions and get their scores at the end.
 - Extract the ZIP file to your computer
 
 
-### Step 2: Compile the Code
+### Step 2: Compile and run the Code
 
 Make sure you have a C++ compiler installed (like g++).  
 Open terminal/command prompt and navigate to the project folder.
 
-To compile:
-
-
+## To compile:
 g++ Mainn.cpp -o quiz
 
 
@@ -45,6 +43,8 @@ g++ Mainn.cpp -o quiz
 ./quiz       # For Linux/Mac
 
 quiz.exe     # For Windows
+
+After completing the above mentioned steps, Enter your name and start the Quiz.
 
 ## What I Learned:
 
