@@ -1,13 +1,12 @@
 /* Thia is a simple console based quiz application that asks 10 MCQ questions to the 
 user and evaluates the score based on user inputs.
 Concepts used: functions, conditionals, user input 
-Made By:```C++
-``` Peehu*/
+Made By: Peehu*/
 #include <iostream>
 using namespace std;
 
-int score = 0;                            //Score calculator
-void askQuestion(string question,string opt1, //Function to ask questions
+int score = 0;                                                //Score calculator
+void askQuestion(string question,string opt1,                //Function to ask questions
     string opt2,string opt3,string opt4,char correctAns){
     char userAns;
     cout<< question <<endl;
@@ -17,7 +16,7 @@ void askQuestion(string question,string opt1, //Function to ask questions
     cout<<"D. "<< opt4 <<endl;
     cout<<"Enter your answer: ";
     cin>>userAns;
-    if(toupper(userAns) == toupper(correctAns)){  //Comparison of correct ans and user ans
+    if(toupper(userAns) == toupper(correctAns)){            //Comparison of correct ans and user ans
         cout<<"Correct!";
         score++;
     }else{cout<<"Wrong!";}
